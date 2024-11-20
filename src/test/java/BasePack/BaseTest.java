@@ -23,6 +23,7 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		System.out.println("driver object:"+driver);
+		System.out.println("driver success");
 		
 		
 	}

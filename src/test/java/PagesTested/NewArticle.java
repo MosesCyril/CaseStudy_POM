@@ -26,6 +26,7 @@ public class NewArticle {
 			about.sendKeys(desc);
 			acontent.sendKeys(act);
 			publish.click();
+			System.out.println("clicked in Successfully");
 	
 		}
 }

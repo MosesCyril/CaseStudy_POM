@@ -18,6 +18,7 @@ public class viewArticle {
 	public void editarticle() throws InterruptedException {
 		Thread.sleep(2000);
 		edit.click();
+		System.out.println("clicked in Successfully");
 }
 	
 }

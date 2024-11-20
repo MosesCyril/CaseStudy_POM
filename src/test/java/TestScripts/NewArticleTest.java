@@ -60,6 +60,7 @@ public class NewArticleTest {
 		nart.acontent.clear();
 		nart.acontent.sendKeys("testqa1");
 		driver.findElement(By.xpath("//button[@type = 'submit']")).click();
+		System.out.println("submitted Successfully");
 		
 		
 		

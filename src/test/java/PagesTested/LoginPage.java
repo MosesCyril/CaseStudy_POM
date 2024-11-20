@@ -13,6 +13,7 @@ public class LoginPage {
 	@FindBy (xpath = "//button[contains(text(),'Login')]")
 	WebElement login;
 	
+	
 public LoginPage(WebDriver driver) {
 		
 		PageFactory.initElements(driver, this);
@@ -25,6 +26,6 @@ public LoginPage(WebDriver driver) {
 		username.sendKeys(uname);
 		upwd.sendKeys(pwd);
 		login.click();
-		
+		System.out.println("Logged in Successfully");		
 	}
 }

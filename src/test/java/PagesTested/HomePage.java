@@ -17,6 +17,7 @@ public HomePage(WebDriver driver) {
 public void newarticle() throws InterruptedException {
 	Thread.sleep(2000);
 	nartle.click();
+	System.out.println("clicked in Successfully");
 }
 
 }
