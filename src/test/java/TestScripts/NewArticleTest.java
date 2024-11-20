@@ -50,7 +50,7 @@ public class NewArticleTest {
 	@Test(priority = 3)
 	  public void articletest() {
 		nart = new NewArticle(driver);
-		nart.textenter("QACYRAutS","how to test" , "selenium framework");
+		nart.textenter("SelenumQAtest1","how to test" , "selenium framework");
 	  }
 	@Test(priority = 4)
 	  public void editarticle() throws InterruptedException {
